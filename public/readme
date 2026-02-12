@@ -1,0 +1,10 @@
+# Static Assets
+
+Bu klasör, doğrudan tarayıcı tarafından erişilebilen statik dosyaları içerir.
+
+## Kategoriler
+- `images/`: Logo, favicon ve genel görseller.
+- `fonts/`: Özel font dosyaları.
+- `icons/`: SVG formatındaki ikonlar.
+
+Görsellerin Next.js `<Image />` bileşeni ile optimize edilebilmesi için uygun formatlarda (WebP, SVG) tutulması tavsiye edilir.

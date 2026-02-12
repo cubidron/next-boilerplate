@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cubidron Creative Next.js Boilerplate
 
-## Getting Started
+Welcome to the **Cubidron Creative Next.js Boilerplate**. This is a highly optimized, opinionated, and feature-rich starter template designed to accelerate the development of modern web applications.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Runtime:** [Bun](https://bun.sh/) (Recommended)
+- **Database (Planned):** ORM integration (Drizzle/Prisma)
+- **Icons:** [Lucide React](https://lucide.dev/) (Recommended)
+
+## 📁 Project Structure
+
+```text
+├── app/              # Next.js App Router (pages, layouts, API)
+├── components/       # Shared React components
+│   └── ui/           # Atomic UI components (shadcn/ui style)
+├── db/               # Database schema and query logic
+├── hooks/            # Custom React hooks
+├── layouts/          # Reusable page layout wrappers
+├── lib/              # Utility functions and server actions
+├── public/           # Static assets (images, fonts, etc.)
+├── store/            # State management (Zustand/Jotai)
+└── styles/           # Global styles and Tailwind config
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Bun](https://bun.sh/) installed on your machine.
+- A basic understanding of Next.js and Tailwind CSS.
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
+   ```bash
+   bun install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server:**
+   ```bash
+   bun dev
+   ```
 
-## Deploy on Vercel
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 Coding Conventions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Component Structure:** Use functional components with Arrow Functions.
+- **TypeScript:** Use strict typing. Avoid `any` whenever possible.
+- **Server Actions:** Place server-side logic in `lib/*/actions.ts`.
+- **Styling:** Use Tailwind CSS for all styling. Follow the mobile-first approach.
+
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
+
+---
+
+Built with ❤️ by **Cubidron Creative**.

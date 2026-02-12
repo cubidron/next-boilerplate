@@ -1,0 +1,15 @@
+# UI Components
+
+Bu klasör, projenin temel yapı taşlarını oluşturan "Atomic" bileşenleri içerir.
+
+## Özellikler
+- **Reusability:** Tüm bileşenler farklı sayfalarda tekrar kullanılabilir olmalıdır.
+- **Styling:** Tailwind CSS kullanılarak stilize edilir.
+- **headlessui** veya **radix-ui** gibi kütüphanelerle entegre edilebilir.
+
+## Örnekler
+- `button.tsx`
+- `input.tsx`
+- `modal.tsx`
+
+Bileşenler eklenirken `shadcn/ui` standartlarına sadık kalınması önerilir.

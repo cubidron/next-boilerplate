@@ -1,0 +1,12 @@
+# Custom Hooks
+
+Proje genelinde kullanılan yardımcı React Hook'ları burada yer alır.
+
+## Kurallar
+- Tüm dosyalar `use` prefix'i ile başlamalıdır (örn: `use-auth.ts`).
+- İş mantığı (logic) ve UI ayrımını sağlamak için kullanılır.
+
+## Sık Kullanılanlar
+- `use-local-storage.ts`: Yerel depolama yönetimi.
+- `use-window-size.ts`: Ekran boyutu takibi.
+- `use-debounce.ts`: Input geciktirme işlemleri.

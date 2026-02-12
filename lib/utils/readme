@@ -1,0 +1,10 @@
+# Utility Functions
+
+Proje genelinde kullanılan saf (pure) yardımcı fonksiyonlar.
+
+## İçerik
+- `cn.ts`: Tailwind sınıf birleştirme (clsx + tailwind-merge).
+- `format-date.ts`: Tarih formatlama işlemleri.
+- `api-error.ts`: Hata yönetimi sınıfları.
+
+Bu klasördeki fonksiyonların yan etkisi (side effect) olmamasına ve kolay test edilebilir olmasına özen gösterilmelidir.

@@ -1,0 +1,10 @@
+# Page Layouts
+
+Sayfaların genel iskeletini oluşturan düzen bileşenleri.
+
+## Klasör Yapısı
+- `default/`: Standart Header ve Footer içeren düzen.
+- `auth/`: Giriş/Kayıt sayfaları için sadeleştirilmiş düzen.
+- `dashboard/`: Yan menü (Sidebar) içeren yönetim paneli düzeni.
+
+Next.js App Router yapısında her `layout.tsx` kendine has bir layout tanımlayabilir ancak paylaşılan büyük parçalar burada tutulmalıdır.

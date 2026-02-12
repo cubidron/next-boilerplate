@@ -1,0 +1,11 @@
+# State Management
+
+Global uygulama durumu (state) burada yönetilir.
+
+## Önerilen Kütüphaneler
+- **Zustand:** Hafif ve hızlı state yönetimi için.
+- **Jotai:** Atom bazlı yönetim için.
+- **React Context:** Çok küçük çaplı paylaşımlar için.
+
+## Yapı
+Her state bir dosya olarak tutulmalı (örn: `auth-store.ts`) ve sadece gerekli olan parçalar dışarıya aktarılmalıdır.
