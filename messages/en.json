@@ -1,0 +1,25 @@
+{
+  "Home": {
+    "badge": "Next Scaffold v1.0",
+    "titleLine1": "For Modern Web Projects",
+    "titleLine2": "Your Complete Starter Kit",
+    "description": "A high-performance and scalable boilerplate optimized with Next.js 15/16, Tailwind 4, and Shadcn standards.",
+    "primaryButton": "Get Started",
+    "secondaryButton": "View on GitHub",
+    "cards": {
+      "performance": {
+        "title": "Performance",
+        "description": "Lightning-fast load times with Bun and Next.js App Router."
+      },
+      "standards": {
+        "title": "Standards",
+        "description": "Full compliance with Shadcn/UI and Atomic Design principles."
+      },
+      "typeSafety": {
+        "title": "Type Safety",
+        "description": "Error-free development process with strict TypeScript rules."
+      }
+    },
+    "footer": "© {year} Cubidron Creative. All rights reserved."
+  }
+}

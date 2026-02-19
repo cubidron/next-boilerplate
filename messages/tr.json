@@ -1,0 +1,25 @@
+{
+  "Home": {
+    "badge": "Next Scaffold v1.0",
+    "titleLine1": "Modern Web Projeleri İçin",
+    "titleLine2": "Eksiksiz Başlangıç Kitiniz",
+    "description": "Next.js 15/16, Tailwind 4 ve Shadcn standartları ile optimize edilmiş, yüksek performanslı ve ölçeklenebilir boilerplate.",
+    "primaryButton": "Hemen Başlayın",
+    "secondaryButton": "GitHub'da Görüntüle",
+    "cards": {
+      "performance": {
+        "title": "Performans",
+        "description": "Bun ve Next.js App Router ile ışık hızında yükleme süreleri."
+      },
+      "standards": {
+        "title": "Standartlar",
+        "description": "Shadcn/UI ve Atomic Design prensiplerine tam uyumluluk."
+      },
+      "typeSafety": {
+        "title": "Tip Güvenliği",
+        "description": "Strict TypeScript kuralları ile hatasız geliştirme süreci."
+      }
+    },
+    "footer": "© {year} Cubidron Creative. Tüm hakları saklıdır."
+  }
+}
