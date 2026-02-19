@@ -46,34 +46,6 @@ Welcome to the **Cubidron Creative Next.js Boilerplate**. This is a highly optim
    bun install
    ```
 
-### Reinstall Added Packages (Bun)
-
-If new packages were added later and you want to install them manually with Bun:
-
-```bash
-bun add \
-  @iconify/react \
-  class-variance-authority \
-  clsx \
-  next@16.1.6 \
-  react@19.2.3 \
-  react-dom@19.2.3 \
-  tailwind-merge
-```
-
-```bash
-bun add -d \
-  @tailwindcss/postcss \
-  @types/node \
-  @types/react \
-  @types/react-dom \
-  babel-plugin-react-compiler@1.0.0 \
-  eslint \
-  eslint-config-next@16.1.6 \
-  tailwindcss \
-  typescript
-```
-
 3. **Run the development server:**
    ```bash
    bun dev
