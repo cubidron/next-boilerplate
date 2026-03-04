@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant hover (&:hover);
+
 @theme {
     --color-border: var(--border);
     --color-input: var(--input);
