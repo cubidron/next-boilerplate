@@ -39,9 +39,13 @@ export default function HoldScroll({
 
         mouseCoords.current = { startX, startY, scrollLeft, scrollTop };
         setIsMouseDown(true);
+
+        // eslint-disable-next-line react-hooks/immutability
         document.body.style.cursor = "grabbing";
+        // eslint-disable-next-line react-hooks/immutability
         document.body.style.userSelect = "none";
-        document.body.style.webkitUserSelect = "none";
+        // eslint-disable-next-line react-hooks/immutability
+        document.body.style.userSelect = "none";
 
         // Disable smooth scroll and snap during drag
         slider.style.scrollBehavior = "auto";
@@ -52,7 +56,7 @@ export default function HoldScroll({
         setIsMouseDown(false);
         document.body.style.cursor = "default";
         document.body.style.userSelect = "auto";
-        document.body.style.webkitUserSelect = "auto";
+        document.body.style.userSelect = "auto";
 
         // Re-enable smooth scroll and snap after drag
         if (scrollContainerRef.current) {
@@ -92,7 +96,7 @@ export default function HoldScroll({
             {isValidElement(children) ? (
                 cloneElement(children, {
                     ref: scrollContainerRef,
-                } as any)
+                } as never)
             ) : (
                 <div ref={scrollContainerRef}>{children}</div>
             )}
